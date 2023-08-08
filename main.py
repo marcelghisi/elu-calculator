@@ -20,6 +20,12 @@ def add(a, b):
 def sub(a, b):
     return a - b
 
+# Multiply function
+# a -- multiplicand
+# b -- multiplier
+def mult(a, b):
+    return a * b
+
 while (True):
     # get input values
     a =  input("Enter the first numeric argument or [q] to exit: ")
@@ -50,7 +56,7 @@ while (True):
         elif (op == "-"):
             print("Sub:", sub(a, b))
         elif (op == "*"):
-            print("Product:")
+            print("Product: ", mult(a, b))
         elif (op == "/"):
             print("Div:")
         else:
