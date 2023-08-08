@@ -13,6 +13,12 @@ op = None
 # b -- argument 2
 def add(a, b):
     return a + b
+    
+# Subtract function
+# a -- minuend
+# b -- subtrahend
+def sub(a, b):
+    return a - b
 
 while (True):
     # get input values
@@ -42,7 +48,7 @@ while (True):
         if (op == "+"):
             print ("Sum:: ", add(a, b))
         elif (op == "-"):
-            print("Difference:")
+            print("Difference:", sub(a, b))
         elif (op == "*"):
             print("Product:")
         elif (op == "/"):
