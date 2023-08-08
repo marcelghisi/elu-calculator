@@ -10,7 +10,13 @@ op = None
 
 while (True):
     # get input values
-    a = raw_input("Enter the first argument: ")
-    op = raw_input("Enter the operation: ")
-    b = raw_input("Enter the second argument: ")
+    a =  input("Enter the first argument: ")
+    op = input("Enter the operation: ")
+    b =  input("Enter the second argument: ")
 
+    try:
+        a = int(a)
+        b = int(b)
+    except ValueError:
+        print("Invalid number argument...")
+        op = None
