@@ -25,6 +25,12 @@ def sub(a, b):
 # b -- multiplier
 def mult(a, b):
     return a * b
+    
+# Divide function
+# a -- dividend
+# b -- divisor
+def div(a, b):
+    return a / b
 
 while (True):
     # get input values
@@ -58,6 +64,6 @@ while (True):
         elif (op == "*"):
             print("Product: ", mult(a, b))
         elif (op == "/"):
-            print("Div:")
+            print("Div:", div(a, b))
         else:
             print("Invalid operation...")
