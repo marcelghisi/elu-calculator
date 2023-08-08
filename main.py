@@ -48,10 +48,10 @@ while (True):
         if (op == "+"):
             print ("Sum:: ", add(a, b))
         elif (op == "-"):
-            print("Difference:", sub(a, b))
+            print("Sub:", sub(a, b))
         elif (op == "*"):
             print("Product:")
         elif (op == "/"):
-            print("Quotient:")
+            print("Div:")
         else:
             print("Invalid operation...")
