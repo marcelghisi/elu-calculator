@@ -9,13 +9,13 @@ A python calculator project to test git flow
 5. Do Code Review 
 
     ```
-    $ ./calc.py
+    $ ./main.py
     ```
 
     or
 
     ```
-    $ python calc.py
+    $ python main.py
     ```
 
 6. Follow the instructions. Input the first number, then the operator symbol, then the second number. The result is displayed. (See [Supported Operations](#supported-operations))
